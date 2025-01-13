@@ -1,0 +1,2 @@
+let t=0;const e=document.getElementById("cookie"),n=document.getElementById("score"),i=document.querySelector("h1"),o=()=>{t>=5e3?i.textContent="Mistrz Klikania! \uD83C\uDF89":t>=500?i.textContent="Ekspert Klikania! \uD83D\uDCAA":t>=100?i.textContent="Nowicjusz Klikania! \uD83C\uDF1F":i.textContent="Cookie Clicker"};e.addEventListener("click",()=>{t++,n.textContent=`Klikni\u{119}cia: ${t}`,o()});
+//# sourceMappingURL=index.5373b883.js.map
